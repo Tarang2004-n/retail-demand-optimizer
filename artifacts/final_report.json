@@ -1,0 +1,106 @@
+{
+  "project_title": "Retail Demand Forecasting and Inventory Optimization",
+  "dataset_scope": {
+    "store_id": "CA_1",
+    "n_products": 100,
+    "validation_windows": [
+      "val1",
+      "val2",
+      "val3"
+    ],
+    "test_window": "d_1914 to d_1941",
+    "frozen_model_parameters": {
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "num_leaves": 31,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  },
+  "forecast_comparison": {
+    "validation_overall": {
+      "seasonal_naive": {
+        "mae": 6.0723,
+        "rmse": 9.772,
+        "wape": 0.5677,
+        "bias": -0.3373,
+        "n_predictions": 8400
+      },
+      "lightgbm": {
+        "mae": 5.5151,
+        "rmse": 7.8958,
+        "wape": 0.5156,
+        "bias": 1.7591,
+        "n_predictions": 8400
+      }
+    },
+    "test_set": {
+      "seasonal_naive": {
+        "mae": 5.6371,
+        "rmse": 8.1608,
+        "wape": 0.5013,
+        "bias": -0.7743,
+        "n_predictions": 2800
+      },
+      "lightgbm": {
+        "mae": 4.9356,
+        "rmse": 6.7144,
+        "wape": 0.4389,
+        "bias": 0.9277,
+        "n_predictions": 2800
+      }
+    }
+  },
+  "inventory_comparison": {
+    "test_set": {
+      "seasonal_naive": {
+        "model_name": "Seasonal_Naive",
+        "lead_time_days": 7,
+        "safety_stock_multiplier": 1.5,
+        "holding_cost_per_unit": 0.05,
+        "lost_sale_penalty_per_unit": 2.0,
+        "fill_rate": 0.9663,
+        "fill_rate_percentage": 96.63,
+        "total_demand": 31488.0,
+        "total_units_served": 30426.0,
+        "total_lost_units": 1062.0,
+        "total_holding_cost": 6939.68,
+        "total_lost_sales_penalty": 2124.01,
+        "total_cost": 9063.69,
+        "avg_on_hand_per_product": 49.57,
+        "stockout_rate": 0.05,
+        "stockout_days_count": 140,
+        "ending_inventory": 4333.3,
+        "ending_outstanding_orders": 7570.9,
+        "total_orders_placed_units": 31607.8
+      },
+      "lightgbm": {
+        "model_name": "LightGBM",
+        "lead_time_days": 7,
+        "safety_stock_multiplier": 1.5,
+        "holding_cost_per_unit": 0.05,
+        "lost_sale_penalty_per_unit": 2.0,
+        "fill_rate": 0.9786,
+        "fill_rate_percentage": 97.86,
+        "total_demand": 31488.0,
+        "total_units_served": 30813.6,
+        "total_lost_units": 674.4,
+        "total_holding_cost": 7469.62,
+        "total_lost_sales_penalty": 1348.85,
+        "total_cost": 8818.47,
+        "avg_on_hand_per_product": 53.35,
+        "stockout_rate": 0.0357,
+        "stockout_days_count": 100,
+        "ending_inventory": 4619.8,
+        "ending_outstanding_orders": 7848.6,
+        "total_orders_placed_units": 32559.5
+      }
+    }
+  },
+  "scientific_integrity_notices": {
+    "no_leakage": "The test set was evaluated once with all parameters strictly frozen.",
+    "demand_proxy": "Historical sales are used as a proxy for demand. Stockout periods truncate observed sales.",
+    "illustrative_costs": "Holding cost ($0.05/day) and penalty ($2.00) are illustrative scenario assumptions."
+  }
+}

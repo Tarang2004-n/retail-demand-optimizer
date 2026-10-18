@@ -1,0 +1,62 @@
+{
+  "dataset": "M5 Forecasting",
+  "total_days": 1941,
+  "forecast_horizon_days": 28,
+  "scientific_rules": [
+    "Strict temporal ordering: no random train/test splits.",
+    "Final 28 days (d_1914-d_1941) held out as untouched test set.",
+    "Three preceding non-overlapping 28-day validation windows.",
+    "Product selection uses ONLY initial training window (d_1-d_1829)."
+  ],
+  "train_selection_period": {
+    "start_d": "d_1",
+    "end_d": "d_1829",
+    "start_day_num": 1,
+    "end_day_num": 1829,
+    "start_date": "2011-01-29",
+    "end_date": "2016-01-31",
+    "num_days": 1829
+  },
+  "validation_windows": [
+    {
+      "name": "val1",
+      "start_d": "d_1830",
+      "end_d": "d_1857",
+      "start_day_num": 1830,
+      "end_day_num": 1857,
+      "start_date": "2016-02-01",
+      "end_date": "2016-02-28",
+      "num_days": 28
+    },
+    {
+      "name": "val2",
+      "start_d": "d_1858",
+      "end_d": "d_1885",
+      "start_day_num": 1858,
+      "end_day_num": 1885,
+      "start_date": "2016-02-29",
+      "end_date": "2016-03-27",
+      "num_days": 28
+    },
+    {
+      "name": "val3",
+      "start_d": "d_1886",
+      "end_d": "d_1913",
+      "start_day_num": 1886,
+      "end_day_num": 1913,
+      "start_date": "2016-03-28",
+      "end_date": "2016-04-24",
+      "num_days": 28
+    }
+  ],
+  "test_period": {
+    "name": "test",
+    "start_d": "d_1914",
+    "end_d": "d_1941",
+    "start_day_num": 1914,
+    "end_day_num": 1941,
+    "start_date": "2016-04-25",
+    "end_date": "2016-05-22",
+    "num_days": 28
+  }
+}

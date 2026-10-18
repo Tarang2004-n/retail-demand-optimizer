@@ -1,0 +1,150 @@
+{
+  "dataset_scope": {
+    "store_id": "CA_1",
+    "n_products": 100,
+    "origin_d": 1913,
+    "test_start_d": 1914,
+    "test_end_d": 1941,
+    "n_test_days": 28,
+    "frozen_hyperparameters": {
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "num_leaves": 31,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    }
+  },
+  "test_metrics": {
+    "seasonal_naive": {
+      "model_name": "Seasonal_Naive",
+      "overall": {
+        "mae": 5.6371,
+        "rmse": 8.1608,
+        "wape": 0.5013,
+        "bias": -0.7743,
+        "n_predictions": 2800
+      },
+      "by_window": {
+        "test": {
+          "mae": 5.6371,
+          "rmse": 8.1608,
+          "wape": 0.5013,
+          "bias": -0.7743,
+          "n_predictions": 2800
+        }
+      },
+      "by_category": {
+        "FOODS": {
+          "mae": 5.3597,
+          "rmse": 7.752,
+          "wape": 0.4518,
+          "bias": -0.9193,
+          "n_predictions": 2380
+        },
+        "HOBBIES": {
+          "mae": 7.6935,
+          "rmse": 10.9198,
+          "wape": 0.9507,
+          "bias": -0.497,
+          "n_predictions": 336
+        },
+        "HOUSEHOLD": {
+          "mae": 5.2738,
+          "rmse": 6.3499,
+          "wape": 0.825,
+          "bias": 2.2262,
+          "n_predictions": 84
+        }
+      },
+      "by_volume_segment": {
+        "high": {
+          "mae": 6.3918,
+          "rmse": 9.3838,
+          "wape": 0.3525,
+          "bias": -1.4264,
+          "n_predictions": 924
+        },
+        "low": {
+          "mae": 4.9524,
+          "rmse": 7.1952,
+          "wape": 0.7152,
+          "bias": -0.4481,
+          "n_predictions": 924
+        },
+        "medium": {
+          "mae": 5.5693,
+          "rmse": 7.7564,
+          "wape": 0.636,
+          "bias": -0.458,
+          "n_predictions": 952
+        }
+      }
+    },
+    "lightgbm": {
+      "model_name": "LightGBM_Recursive",
+      "overall": {
+        "mae": 4.9356,
+        "rmse": 6.7144,
+        "wape": 0.4389,
+        "bias": 0.9277,
+        "n_predictions": 2800
+      },
+      "by_window": {
+        "test": {
+          "mae": 4.9356,
+          "rmse": 6.7144,
+          "wape": 0.4389,
+          "bias": 0.9277,
+          "n_predictions": 2800
+        }
+      },
+      "by_category": {
+        "FOODS": {
+          "mae": 4.6858,
+          "rmse": 6.3901,
+          "wape": 0.395,
+          "bias": 0.8533,
+          "n_predictions": 2380
+        },
+        "HOBBIES": {
+          "mae": 6.7451,
+          "rmse": 8.8025,
+          "wape": 0.8335,
+          "bias": 0.9766,
+          "n_predictions": 336
+        },
+        "HOUSEHOLD": {
+          "mae": 4.7745,
+          "rmse": 5.9904,
+          "wape": 0.7468,
+          "bias": 2.8403,
+          "n_predictions": 84
+        }
+      },
+      "by_volume_segment": {
+        "high": {
+          "mae": 5.7164,
+          "rmse": 7.66,
+          "wape": 0.3153,
+          "bias": 1.1789,
+          "n_predictions": 924
+        },
+        "low": {
+          "mae": 4.3136,
+          "rmse": 5.7151,
+          "wape": 0.623,
+          "bias": 0.6177,
+          "n_predictions": 924
+        },
+        "medium": {
+          "mae": 4.7815,
+          "rmse": 6.6293,
+          "wape": 0.5461,
+          "bias": 0.9848,
+          "n_predictions": 952
+        }
+      }
+    }
+  }
+}

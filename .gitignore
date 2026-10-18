@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & caching
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large raw datasets (downloaded from Kaggle M5 competition per README)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.gz
+!data/raw/.gitkeep
+
+# Intermediate processed data (regenerable via python src/run_stage1.py)
+data/processed/*.parquet
+!data/processed/.gitkeep
+
+# Large interactive HTML plots (PNG figures are tracked for GitHub README rendering)
+reports/figures/*.html
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor & IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo

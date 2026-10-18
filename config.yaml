@@ -1,0 +1,72 @@
+# Retail Demand Forecasting & Inventory Optimization
+# Configuration file — all assumptions are explicit and configurable
+
+# Data settings
+data:
+  store_id: "CA_1"
+  n_products: 100
+  random_seed: 42
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+
+# Temporal split boundaries (M5 uses d_1 through d_1941)
+# sales_train_evaluation has d_1 to d_1941
+# Total days: 1941 (2011-01-29 to 2016-06-19)
+# Test set: last 28 days = d_1914 to d_1941
+# Validation windows (3 x 28 days before test):
+#   val3: d_1886 to d_1913
+#   val2: d_1858 to d_1885
+#   val1: d_1830 to d_1857
+# Training for product selection: d_1 to d_1829
+temporal:
+  total_days: 1941
+  forecast_horizon: 28
+  test_start_d: 1914
+  test_end_d: 1941
+  validation_windows:
+    - name: "val1"
+      start_d: 1830
+      end_d: 1857
+    - name: "val2"
+      start_d: 1858
+      end_d: 1885
+    - name: "val3"
+      start_d: 1886
+      end_d: 1913
+  train_end_d: 1829  # End of initial training period (for product selection)
+
+# Forecasting
+forecasting:
+  models:
+    - "seasonal_naive"
+    - "lightgbm"
+  lightgbm:
+    lag_features: [1, 7, 14, 21, 28]
+    rolling_windows: [7, 14, 28]
+    n_estimators_options: [100, 300, 500]
+    learning_rate_options: [0.05, 0.1]
+    max_depth_options: [5, 7]
+    num_leaves_options: [31, 63]
+  metrics:
+    - "mae"
+    - "rmse"
+    - "wape"
+    - "bias"
+
+# Inventory simulation
+inventory:
+  lead_time_days: 7
+  review_period_days: 1  # Daily review
+  holding_cost_per_unit_per_day: 0.05  # Illustrative
+  lost_sale_penalty_per_unit: 2.00     # Illustrative
+  safety_stock_multiplier: 1.5        # Multiplied by forecast error std
+  policy: "order_up_to"               # Order-up-to policy
+  lost_sales_model: true              # Lost sales, not backorders
+  # NOTE: These costs are illustrative assumptions, NOT real business costs.
+  # Do not interpret results as proven real-world savings.
+
+# Output
+output:
+  figures_dir: "reports/figures"
+  artifacts_dir: "artifacts"
+  reports_dir: "reports"

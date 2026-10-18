@@ -1,0 +1,32 @@
+{
+  "dataset_scope": {
+    "store_id": "CA_1",
+    "n_products": 100,
+    "total_days": 1941,
+    "expected_days": 1941,
+    "total_rows": 194100,
+    "min_date": "2011-01-29",
+    "max_date": "2016-05-22"
+  },
+  "quality_metrics": {
+    "missing_prices_count": 8743,
+    "missing_prices_percentage": 4.5,
+    "missing_dates_count": 0,
+    "zero_sales_count": 36848,
+    "zero_sales_percentage": 18.98,
+    "negative_sales_count": 0,
+    "negative_prices_count": 0,
+    "duplicate_product_day_rows": 0,
+    "date_continuity_verified": true
+  },
+  "category_distribution": {
+    "FOODS": 85,
+    "HOBBIES": 12,
+    "HOUSEHOLD": 3
+  },
+  "scientific_integrity_notes": {
+    "missing_prices_interpretation": "Missing sell prices reflect periods before product launch or after delisting in this store. They MUST NOT be interpreted as confirmed stockouts.",
+    "zero_sales_interpretation": "Zero sales days represent unobserved demand or true zero customer demand. Because on-shelf availability and inventory levels are not recorded in M5, zero sales CANNOT be distinguished from out-of-stock events without assumptions.",
+    "no_leakage_guarantee": "Product selection and validation splits strictly respect temporal boundaries. No information from validation or test periods was used to filter or curate items."
+  }
+}

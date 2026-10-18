@@ -1,0 +1,719 @@
+{
+  "store_id": "CA_1",
+  "n_products": 100,
+  "selection_period": "d_1 to d_1829",
+  "category_counts": {
+    "FOODS": 85,
+    "HOBBIES": 12,
+    "HOUSEHOLD": 3
+  },
+  "department_counts": {
+    "FOODS_3": 66,
+    "HOBBIES_1": 12,
+    "FOODS_2": 10,
+    "FOODS_1": 9,
+    "HOUSEHOLD_1": 3
+  },
+  "selected_products": [
+    {
+      "rank": 1,
+      "item_id": "FOODS_3_090",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 122863
+    },
+    {
+      "rank": 2,
+      "item_id": "FOODS_3_586",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 84568
+    },
+    {
+      "rank": 3,
+      "item_id": "FOODS_3_252",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 71999
+    },
+    {
+      "rank": 4,
+      "item_id": "FOODS_3_120",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 58926
+    },
+    {
+      "rank": 5,
+      "item_id": "FOODS_3_714",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 52545
+    },
+    {
+      "rank": 6,
+      "item_id": "FOODS_3_587",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 49442
+    },
+    {
+      "rank": 7,
+      "item_id": "FOODS_3_808",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 45847
+    },
+    {
+      "rank": 8,
+      "item_id": "FOODS_2_197",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 39258
+    },
+    {
+      "rank": 9,
+      "item_id": "FOODS_3_080",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 37557
+    },
+    {
+      "rank": 10,
+      "item_id": "FOODS_3_555",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 36354
+    },
+    {
+      "rank": 11,
+      "item_id": "FOODS_3_541",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 36323
+    },
+    {
+      "rank": 12,
+      "item_id": "FOODS_3_635",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 34586
+    },
+    {
+      "rank": 13,
+      "item_id": "FOODS_3_741",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 34153
+    },
+    {
+      "rank": 14,
+      "item_id": "FOODS_2_019",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 33960
+    },
+    {
+      "rank": 15,
+      "item_id": "FOODS_3_099",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 31924
+    },
+    {
+      "rank": 16,
+      "item_id": "FOODS_3_681",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 31704
+    },
+    {
+      "rank": 17,
+      "item_id": "FOODS_3_318",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 31619
+    },
+    {
+      "rank": 18,
+      "item_id": "FOODS_3_202",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 30066
+    },
+    {
+      "rank": 19,
+      "item_id": "FOODS_3_694",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 28184
+    },
+    {
+      "rank": 20,
+      "item_id": "FOODS_3_319",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 27895
+    },
+    {
+      "rank": 21,
+      "item_id": "FOODS_3_491",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 27809
+    },
+    {
+      "rank": 22,
+      "item_id": "FOODS_3_723",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 27443
+    },
+    {
+      "rank": 23,
+      "item_id": "FOODS_3_282",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 27344
+    },
+    {
+      "rank": 24,
+      "item_id": "FOODS_3_501",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 26048
+    },
+    {
+      "rank": 25,
+      "item_id": "FOODS_3_295",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 25893
+    },
+    {
+      "rank": 26,
+      "item_id": "FOODS_2_276",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 25554
+    },
+    {
+      "rank": 27,
+      "item_id": "FOODS_3_607",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 25528
+    },
+    {
+      "rank": 28,
+      "item_id": "FOODS_3_785",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 25504
+    },
+    {
+      "rank": 29,
+      "item_id": "FOODS_3_064",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 24313
+    },
+    {
+      "rank": 30,
+      "item_id": "FOODS_2_347",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 24238
+    },
+    {
+      "rank": 31,
+      "item_id": "FOODS_2_360",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 24199
+    },
+    {
+      "rank": 32,
+      "item_id": "FOODS_3_744",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 22319
+    },
+    {
+      "rank": 33,
+      "item_id": "HOBBIES_1_348",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 22288
+    },
+    {
+      "rank": 34,
+      "item_id": "FOODS_3_755",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 22196
+    },
+    {
+      "rank": 35,
+      "item_id": "FOODS_3_281",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 22142
+    },
+    {
+      "rank": 36,
+      "item_id": "HOBBIES_1_371",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 21806
+    },
+    {
+      "rank": 37,
+      "item_id": "FOODS_1_218",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 21533
+    },
+    {
+      "rank": 38,
+      "item_id": "FOODS_3_702",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 21031
+    },
+    {
+      "rank": 39,
+      "item_id": "FOODS_3_739",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 20617
+    },
+    {
+      "rank": 40,
+      "item_id": "FOODS_3_377",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 20615
+    },
+    {
+      "rank": 41,
+      "item_id": "FOODS_3_362",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 20559
+    },
+    {
+      "rank": 42,
+      "item_id": "FOODS_2_244",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 19592
+    },
+    {
+      "rank": 43,
+      "item_id": "FOODS_3_389",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 19466
+    },
+    {
+      "rank": 44,
+      "item_id": "FOODS_1_085",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 19389
+    },
+    {
+      "rank": 45,
+      "item_id": "FOODS_3_668",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 19305
+    },
+    {
+      "rank": 46,
+      "item_id": "FOODS_3_764",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 19260
+    },
+    {
+      "rank": 47,
+      "item_id": "FOODS_3_329",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 19088
+    },
+    {
+      "rank": 48,
+      "item_id": "FOODS_3_406",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 18932
+    },
+    {
+      "rank": 49,
+      "item_id": "FOODS_3_351",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 18634
+    },
+    {
+      "rank": 50,
+      "item_id": "HOBBIES_1_268",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 17889
+    },
+    {
+      "rank": 51,
+      "item_id": "FOODS_1_018",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 17738
+    },
+    {
+      "rank": 52,
+      "item_id": "FOODS_3_376",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 17730
+    },
+    {
+      "rank": 53,
+      "item_id": "FOODS_3_288",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 17481
+    },
+    {
+      "rank": 54,
+      "item_id": "FOODS_3_234",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 17185
+    },
+    {
+      "rank": 55,
+      "item_id": "FOODS_3_228",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 16749
+    },
+    {
+      "rank": 56,
+      "item_id": "FOODS_3_455",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 16616
+    },
+    {
+      "rank": 57,
+      "item_id": "FOODS_3_499",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 16489
+    },
+    {
+      "rank": 58,
+      "item_id": "FOODS_3_030",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 16481
+    },
+    {
+      "rank": 59,
+      "item_id": "FOODS_3_473",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 16139
+    },
+    {
+      "rank": 60,
+      "item_id": "FOODS_1_161",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 15964
+    },
+    {
+      "rank": 61,
+      "item_id": "FOODS_1_004",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 15738
+    },
+    {
+      "rank": 62,
+      "item_id": "FOODS_3_711",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 15621
+    },
+    {
+      "rank": 63,
+      "item_id": "HOBBIES_1_178",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 15318
+    },
+    {
+      "rank": 64,
+      "item_id": "FOODS_2_371",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 15092
+    },
+    {
+      "rank": 65,
+      "item_id": "HOBBIES_1_256",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 14952
+    },
+    {
+      "rank": 66,
+      "item_id": "FOODS_1_032",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 14534
+    },
+    {
+      "rank": 67,
+      "item_id": "FOODS_3_324",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 14393
+    },
+    {
+      "rank": 68,
+      "item_id": "FOODS_3_086",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 14332
+    },
+    {
+      "rank": 69,
+      "item_id": "HOBBIES_1_370",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 14304
+    },
+    {
+      "rank": 70,
+      "item_id": "HOBBIES_1_254",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 14277
+    },
+    {
+      "rank": 71,
+      "item_id": "FOODS_3_697",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 14255
+    },
+    {
+      "rank": 72,
+      "item_id": "FOODS_3_404",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 14077
+    },
+    {
+      "rank": 73,
+      "item_id": "FOODS_2_128",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 13935
+    },
+    {
+      "rank": 74,
+      "item_id": "HOUSEHOLD_1_118",
+      "cat_id": "HOUSEHOLD",
+      "dept_id": "HOUSEHOLD_1",
+      "total_train_sales": 13924
+    },
+    {
+      "rank": 75,
+      "item_id": "HOBBIES_1_341",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 13870
+    },
+    {
+      "rank": 76,
+      "item_id": "FOODS_3_811",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 13868
+    },
+    {
+      "rank": 77,
+      "item_id": "FOODS_3_516",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 13821
+    },
+    {
+      "rank": 78,
+      "item_id": "FOODS_3_349",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 13410
+    },
+    {
+      "rank": 79,
+      "item_id": "HOBBIES_1_008",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 13100
+    },
+    {
+      "rank": 80,
+      "item_id": "FOODS_1_046",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 12985
+    },
+    {
+      "rank": 81,
+      "item_id": "FOODS_3_263",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12939
+    },
+    {
+      "rank": 82,
+      "item_id": "FOODS_3_226",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12918
+    },
+    {
+      "rank": 83,
+      "item_id": "HOBBIES_1_278",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 12903
+    },
+    {
+      "rank": 84,
+      "item_id": "FOODS_3_462",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12875
+    },
+    {
+      "rank": 85,
+      "item_id": "FOODS_3_574",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12847
+    },
+    {
+      "rank": 86,
+      "item_id": "FOODS_3_546",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12738
+    },
+    {
+      "rank": 87,
+      "item_id": "FOODS_3_477",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12733
+    },
+    {
+      "rank": 88,
+      "item_id": "FOODS_1_043",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 12587
+    },
+    {
+      "rank": 89,
+      "item_id": "HOBBIES_1_048",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 12557
+    },
+    {
+      "rank": 90,
+      "item_id": "FOODS_3_219",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12399
+    },
+    {
+      "rank": 91,
+      "item_id": "HOBBIES_1_295",
+      "cat_id": "HOBBIES",
+      "dept_id": "HOBBIES_1",
+      "total_train_sales": 12361
+    },
+    {
+      "rank": 92,
+      "item_id": "FOODS_3_547",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12130
+    },
+    {
+      "rank": 93,
+      "item_id": "FOODS_1_099",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_1",
+      "total_train_sales": 12119
+    },
+    {
+      "rank": 94,
+      "item_id": "FOODS_3_752",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12112
+    },
+    {
+      "rank": 95,
+      "item_id": "HOUSEHOLD_1_535",
+      "cat_id": "HOUSEHOLD",
+      "dept_id": "HOUSEHOLD_1",
+      "total_train_sales": 12083
+    },
+    {
+      "rank": 96,
+      "item_id": "FOODS_3_313",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 12080
+    },
+    {
+      "rank": 97,
+      "item_id": "FOODS_2_021",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 12076
+    },
+    {
+      "rank": 98,
+      "item_id": "FOODS_3_767",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_3",
+      "total_train_sales": 11817
+    },
+    {
+      "rank": 99,
+      "item_id": "FOODS_2_181",
+      "cat_id": "FOODS",
+      "dept_id": "FOODS_2",
+      "total_train_sales": 11718
+    },
+    {
+      "rank": 100,
+      "item_id": "HOUSEHOLD_1_334",
+      "cat_id": "HOUSEHOLD",
+      "dept_id": "HOUSEHOLD_1",
+      "total_train_sales": 11583
+    }
+  ]
+}

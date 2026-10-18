@@ -1,0 +1,55 @@
+{
+  "simulation_parameters": {
+    "period": "test_set (d_1914 to d_1941)",
+    "lead_time_days": 7,
+    "review_period_days": 1,
+    "holding_cost_per_unit_per_day": 0.05,
+    "lost_sale_penalty_per_unit": 2.0,
+    "safety_stock_multiplier": 1.5,
+    "initial_inventory_units": 10722.47
+  },
+  "policies": {
+    "seasonal_naive": {
+      "model_name": "Seasonal_Naive",
+      "lead_time_days": 7,
+      "safety_stock_multiplier": 1.5,
+      "holding_cost_per_unit": 0.05,
+      "lost_sale_penalty_per_unit": 2.0,
+      "fill_rate": 0.9663,
+      "fill_rate_percentage": 96.63,
+      "total_demand": 31488.0,
+      "total_units_served": 30426.0,
+      "total_lost_units": 1062.0,
+      "total_holding_cost": 6939.68,
+      "total_lost_sales_penalty": 2124.01,
+      "total_cost": 9063.69,
+      "avg_on_hand_per_product": 49.57,
+      "stockout_rate": 0.05,
+      "stockout_days_count": 140,
+      "ending_inventory": 4333.3,
+      "ending_outstanding_orders": 7570.9,
+      "total_orders_placed_units": 31607.8
+    },
+    "lightgbm": {
+      "model_name": "LightGBM",
+      "lead_time_days": 7,
+      "safety_stock_multiplier": 1.5,
+      "holding_cost_per_unit": 0.05,
+      "lost_sale_penalty_per_unit": 2.0,
+      "fill_rate": 0.9786,
+      "fill_rate_percentage": 97.86,
+      "total_demand": 31488.0,
+      "total_units_served": 30813.6,
+      "total_lost_units": 674.4,
+      "total_holding_cost": 7469.62,
+      "total_lost_sales_penalty": 1348.85,
+      "total_cost": 8818.47,
+      "avg_on_hand_per_product": 53.35,
+      "stockout_rate": 0.0357,
+      "stockout_days_count": 100,
+      "ending_inventory": 4619.8,
+      "ending_outstanding_orders": 7848.6,
+      "total_orders_placed_units": 32559.5
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "simulation_parameters": {
+    "validation_window": "val3",
+    "start_day": 1886,
+    "end_day": 1913,
+    "n_days": 28,
+    "n_products": 100,
+    "lead_time_days": 7,
+    "review_period_days": 1,
+    "holding_cost_per_unit_per_day": 0.05,
+    "lost_sale_penalty_per_unit": 2.0,
+    "safety_stock_multiplier": 1.5,
+    "initial_inventory_total_units": 10569.57
+  },
+  "scientific_integrity_notices": {
+    "demand_proxy_notice": "Historical sales are used as a proxy for customer demand. True unconstrained demand is unobserved in retail POS data when inventory reaches zero.",
+    "illustrative_costs_notice": "Holding costs ($0.05/unit/day) and lost sale penalties ($2.00/unit) are illustrative scenario parameters. Results must not be interpreted as proven real-world dollar savings.",
+    "horizon_effect_notice": "Orders placed within lead_time days of the simulation horizon end do not arrive before simulation termination. Ending inventory and outstanding orders are explicitly reported."
+  },
+  "policies": {
+    "seasonal_naive": {
+      "model_name": "Seasonal_Naive",
+      "lead_time_days": 7,
+      "safety_stock_multiplier": 1.5,
+      "holding_cost_per_unit": 0.05,
+      "lost_sale_penalty_per_unit": 2.0,
+      "fill_rate": 0.9585,
+      "fill_rate_percentage": 95.85,
+      "total_demand": 30023.0,
+      "total_units_served": 28778.4,
+      "total_lost_units": 1244.6,
+      "total_holding_cost": 7873.68,
+      "total_lost_sales_penalty": 2489.28,
+      "total_cost": 10362.96,
+      "avg_on_hand_per_product": 56.24,
+      "stockout_rate": 0.0368,
+      "stockout_days_count": 103,
+      "ending_inventory": 5444.9,
+      "ending_outstanding_orders": 6978.2,
+      "total_orders_placed_units": 30631.9
+    },
+    "lightgbm": {
+      "model_name": "LightGBM",
+      "lead_time_days": 7,
+      "safety_stock_multiplier": 1.5,
+      "holding_cost_per_unit": 0.05,
+      "lost_sale_penalty_per_unit": 2.0,
+      "fill_rate": 0.9743,
+      "fill_rate_percentage": 97.43,
+      "total_demand": 30023.0,
+      "total_units_served": 29252.4,
+      "total_lost_units": 770.6,
+      "total_holding_cost": 8274.03,
+      "total_lost_sales_penalty": 1541.24,
+      "total_cost": 9815.27,
+      "avg_on_hand_per_product": 59.1,
+      "stockout_rate": 0.0207,
+      "stockout_days_count": 58,
+      "ending_inventory": 5522.4,
+      "ending_outstanding_orders": 7352.8,
+      "total_orders_placed_units": 31558.1
+    }
+  }
+}
