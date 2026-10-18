@@ -94,7 +94,7 @@ To prevent the subtle methodological flaws that frequently plague retail time-se
 
 ```bash
 # Clone repository
-git clone https://github.com/example/retail-demand-optimizer.git
+git clone https://github.com/Tarang2004-n/retail-demand-optimizer.git
 cd retail-demand-optimizer
 
 # Create and activate virtual environment
